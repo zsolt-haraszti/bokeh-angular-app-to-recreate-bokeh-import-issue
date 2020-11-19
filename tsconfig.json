@@ -14,7 +14,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@bokeh/*": [
+        "node_modules/@bokeh/bokehjs/build/js/types/*",
+        "node_modules/@bokeh/bokehjs/build/js/lib/*",
+        "external/npm/node_modules/@bokeh/bokehjs/build/js/types/*",
+        "external/npm/node_modules/@bokeh/bokehjs/build/js/lib/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
