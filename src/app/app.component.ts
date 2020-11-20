@@ -1,5 +1,6 @@
 import {Component} from '@angular/core';
 
+import {add_document_standalone} from '@bokeh/embed';
 import {LayoutDOM} from '@bokeh/models/layouts/layout_dom';
 
 @Component({
@@ -12,5 +13,6 @@ export class AppComponent {
 
   constructor() {
     console.log('was able to load:', LayoutDOM);
+    console.log('was able to load:', add_document_standalone);
   }
 }
